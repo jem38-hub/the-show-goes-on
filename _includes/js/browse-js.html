@@ -2,7 +2,7 @@
 {% assign cb_icons = site.pages | where: "name","cb-icons.svg" | first %}
 {% assign icons = cb_icons.icons %}{%- endif -%}
 {% if site.data.theme.browse-child-objects == true %}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
+{%- assign items = site.data[site.metadata] -%}
 {% else %}
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
 {% endif %}
