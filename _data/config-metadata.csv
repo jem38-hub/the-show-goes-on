@@ -2,6 +2,7 @@ field,display_name,browse_link,external_link
 title,Title,,
 performer,Performer,,
 event,Event,,
+venue,Venue,,
 creator,Creator,,
 date,Performance Date,,
 description,Description,,
